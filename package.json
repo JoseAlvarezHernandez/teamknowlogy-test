@@ -1,0 +1,31 @@
+{
+  "name": "teamknowlogy",
+  "version": "1.0.0",
+  "description": "DNA test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "live": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseAlvarezHernandez/teamknowlogy-test.git"
+  },
+  "author": "Jose de Jesus Alvarez Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseAlvarezHernandez/teamknowlogy-test/issues"
+  },
+  "homepage": "https://github.com/JoseAlvarezHernandez/teamknowlogy-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^3.2.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
