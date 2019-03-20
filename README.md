@@ -36,8 +36,10 @@ First of all you must install all the dependencies of the project a.k.a. `Node M
 ```sh
 npm install
 ``` 
-After installing dependencies you must configure your environment variables, because we are using them in database connection. 
+After installing dependencies you must configure your environment variables,  it's only one but very important because we are using it in database connection. 
 Visual Studio Code supports variable substitution in [Debugging](https://code.visualstudio.com/docs/editor/debugging) and [Task](https://code.visualstudio.com/docs/editor/tasks) configuration files. Variable substitution is supported inside key and value strings in `launch.json` and `tasks.json` files using **${variableName}** syntax. 
+
+variable name : `db`
 
 You can find more information about it in [VS CODE](https://code.visualstudio.com/docs/editor/variables-reference).
 
