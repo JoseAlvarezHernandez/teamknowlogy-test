@@ -28,9 +28,11 @@ const mutation = require('../controllers/mutation');
 * @swagger
 * definitions:
 *   DNAObject:
-*     type: array   
-*     items: 
-*       type: string
+*     properties:
+*       dna:
+*         type: array   
+*         items: 
+*           type: string
 */
 /**
  * @swagger

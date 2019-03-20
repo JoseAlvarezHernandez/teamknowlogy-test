@@ -81,7 +81,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 const mutationRoute = require('./routes/mutation');
 
 /** Stats Route */
-//const statsRoute = require('./routes/stats');
+const statsRoute = require('./routes/stats');
 
 // Init get
 router.get('/', (req, res) => res.status(200).send({ status: 'up' }));
@@ -98,7 +98,7 @@ router.get('/api/swagger.json', (req, res) => {
 
 app.use(router);
 app.use(mutationRoute);
-//app.use(statsRoute);
+app.use(statsRoute);
 app.use((req, res) => res.status(404).send({ error: 'Method Not Allowed' }));
 
 /************************************************
