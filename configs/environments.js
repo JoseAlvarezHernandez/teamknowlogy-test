@@ -26,7 +26,7 @@ module.exports = {
                 version: '1.0.1',
                 description: 'RESTFUL API Documentation',
             },
-            host: 'fintech-api-hackaton.herokuapp.com',
+            host: 'teamknowlogy.herokuapp.com',
             basePath: '/',
             tags: [
                 { name: 'API' },
