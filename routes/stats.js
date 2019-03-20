@@ -37,7 +37,7 @@ const stats = require('../controllers/stats');
 /**
  * @swagger
  * definitions:
- *   APISuccess:
+ *   APIDNASuccess:
  *     properties:
  *       count_mutations:
  *         type: number
@@ -59,7 +59,7 @@ const stats = require('../controllers/stats');
 *       200:
 *         description: Successful request
 *         schema:
-*           $ref: '#/definitions/APISuccess'
+*           $ref: '#/definitions/APIDNASuccess'
 *       400:
 *         description: Bad request
 *         schema:
