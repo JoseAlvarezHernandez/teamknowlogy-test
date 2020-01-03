@@ -1,6 +1,6 @@
 # Welcome to TeamKnowlogy Test!
 
-In this test is needed to develop a project that detects if a person has genetic differences based on their DNA sequence. For that it is necessary to create a program with a method or function with the following signature (in one of the following languages: Java / Golang / C-C ++ / Javascript (node) / Python / Ruby):
+In this test is needed to develop a project that detects if a person has genetic differences based on their DNA sequence. It is necessary to create a program with a method/function with the following signature (in one of the following languages: Java / Golang / C-C ++ / Javascript (node) / Python / Ruby):
 
 **boolean hasMutation (String [] dna); // Java Example**
 
